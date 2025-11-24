@@ -43,6 +43,7 @@
             this.tiposDeCambioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresoTipoCambioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tipoCambioDelDiaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.herramientasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cambiarContraseñaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,7 +54,7 @@
             this.Pnl_Superior = new System.Windows.Forms.Panel();
             this.Lbl_Bancos = new System.Windows.Forms.Label();
             this.Pic_Cerrar = new System.Windows.Forms.PictureBox();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.prueba3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.Pnl_Superior.SuspendLayout();
@@ -126,7 +127,8 @@
             this.CuentasToolStripMenuItem,
             this.TipoPagoToolStripMenuItem,
             this.Transacciones,
-            this.pruebaToolStripMenuItem});
+            this.pruebaToolStripMenuItem,
+            this.prueba3ToolStripMenuItem});
             this.catálogosToolStripMenuItem.Font = new System.Drawing.Font("Rockwell", 10F);
             this.catálogosToolStripMenuItem.Name = "catálogosToolStripMenuItem";
             this.catálogosToolStripMenuItem.Size = new System.Drawing.Size(102, 24);
@@ -271,6 +273,13 @@
             this.tipoCambioDelDiaToolStripMenuItem.Text = "Tipo Cambio del Dia";
             this.tipoCambioDelDiaToolStripMenuItem.Click += new System.EventHandler(this.tipoCambioDelDiaToolStripMenuItem_Click);
             // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(365, 26);
+            this.toolStripMenuItem2.Text = "Cierre Bancario";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
             // herramientasToolStripMenuItem
             // 
             this.herramientasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -363,12 +372,12 @@
             this.Pic_Cerrar.TabStop = false;
             this.Pic_Cerrar.Click += new System.EventHandler(this.Pic_Cerrar_Click);
             // 
-            // toolStripMenuItem2
+            // prueba3ToolStripMenuItem
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(365, 26);
-            this.toolStripMenuItem2.Text = "Cierre Bancario";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            this.prueba3ToolStripMenuItem.Name = "prueba3ToolStripMenuItem";
+            this.prueba3ToolStripMenuItem.Size = new System.Drawing.Size(326, 26);
+            this.prueba3ToolStripMenuItem.Text = "Prueba 3";
+            this.prueba3ToolStripMenuItem.Click += new System.EventHandler(this.prueba3ToolStripMenuItem_Click);
             // 
             // Frm_Seguridad
             // 
@@ -437,5 +446,6 @@
         private System.Windows.Forms.ToolStripMenuItem pruebaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem tipoCambioDelDiaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem prueba3ToolStripMenuItem;
     }
 }

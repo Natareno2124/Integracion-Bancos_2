@@ -78,7 +78,7 @@ namespace Capa_Vista_Bancos
                 // Registrar inicio en bitácora
                 ctrlBitacora.RegistrarInicioSesion(iIdUsuario);
 
-                // Abrir Frm_Principal
+                // Abrir Frm_Seguridad
                 this.Hide();
                 Frm_Seguridad frmMenu = new Frm_Seguridad();
                 frmMenu.ShowDialog();

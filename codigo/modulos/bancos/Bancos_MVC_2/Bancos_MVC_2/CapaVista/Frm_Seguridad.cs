@@ -355,7 +355,7 @@ namespace Capa_Vista_Bancos
 
         private void generaciónDePólizaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Frm_GenerarPoliza PL = new Frm_GenerarPoliza();
+           Frm_GenerarPoliza PL = new Frm_GenerarPoliza();
            PL.ShowDialog();
         }
 
@@ -417,6 +417,12 @@ namespace Capa_Vista_Bancos
         {
             Frm_Cierre_Bancario M = new Frm_Cierre_Bancario();
             M.ShowDialog();
+        }
+
+        private void prueba3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Frm_PRUEBA_3 M = new Frm_PRUEBA_3();
+            //M.ShowDialog();
         }
     }
 }
